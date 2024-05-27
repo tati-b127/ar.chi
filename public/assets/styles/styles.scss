@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "FuturaDemiC";
+    src: url('../fonts/futurademic_regular-webfont.woff');
+}
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url('../fonts/PlayfairDisplay-Regular.woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url('../fonts/PlayfairDisplay-Bold.woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: "FuturabookC";
+    src: url('../fonts/futurabookc_regular-webfont.woff');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+a {
+    font-family: "FuturaDemiC", sans-serif;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease-in-out;
+    &:hover { color: #33333350;}
+}
+input {
+    outline: none;
+    font-family: "FuturaDemiC", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    &::placeholder {
+        color: #44444450;
+    }
+}
+body {
+    font-family: "FuturaDemiC", sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    color: #444444;
+    background: #F3F3F3;
+}
+.btn {
+    font-family: "FuturaDemiC", sans-serif;
+    border: none;
+    line-height: 100%;
+    background: transparent;
+    cursor: pointer;
+}
+.container {
+    max-width: 1300px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
